@@ -1,8 +1,8 @@
-const http = require('http'); const hostname = '127.0.0.1';
-const port = 3000; const server = http.createServer((req, res) => {
+const http = require('http'); const hostname = 'http://yofiz-momo-nodejs-yofiz.apps.us-east-1.starter.openshift-online.com/';
+const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World\n');
-}); server.listen(port, hostname, () => {
+}); server.listen(hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });

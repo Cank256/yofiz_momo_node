@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   //Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
+  res.end('Hello This is Canktech\n');
 });
 
 server.listen(server_port, server_ip_address, () => {

@@ -1,5 +1,5 @@
 const http = require('http')
-const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '10.130.21.221'
 const server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 
 //Create HTTP server and listen on port 3000 for requests
